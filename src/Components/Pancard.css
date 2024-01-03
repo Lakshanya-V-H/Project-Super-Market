@@ -1,0 +1,56 @@
+.Pancard{
+    background-image: url('images/background_img9_blur.jpg');
+  background-size: cover;
+}
+.Pancard h1{
+    margin-top:40px;
+    color:white;
+    font-size:2.5rem
+}
+.Pancard #Content,fieldset
+{
+    
+    background-color:whitesmoke;
+    margin-left: 350px;
+    margin-right:350px;
+    margin-top: 40px;
+    border-radius: 50px;
+    border-color: transparent;
+    color: #666;
+}
+.Pancard td,p
+{
+    font-weight: 400;
+    padding: 0 1.2rem;
+    font-size: 1.6rem;
+}
+.Pancard #checkbox
+{
+    border-style: none;
+    box-shadow: none;
+    margin-right: 5px;
+    height:15px;
+    width:15px;
+}
+.Pancard .agree
+{
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+.Pancard .btn {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-top:10px;
+    margin-bottom:8px;
+    display: inline-block;
+    padding: .8rem 3rem;
+    background: #bac34e;
+    color: white;
+    font-size: 1.7rem;
+    cursor: pointer;
+    border:none;
+    border-radius: 5px;
+  }
+.Pancard .btn :hover {
+    background: black;
+  }

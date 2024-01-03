@@ -1,0 +1,19 @@
+
+.ShopPage .banner-container .banner .content h3 {
+    font-size: 2.5rem;
+    padding-top: .5rem;
+    color: black;
+  }
+
+.ShopPage .banner-container .banner .content a {
+    font-size: 1.8rem;
+    padding-top: .5rem;
+    color: #666;
+    font-weight: 500;
+  }
+.ShopPage .banner-container .banner{
+    border-radius: 20px;
+}
+.ShopPage .banner-container{
+    margin-top: 30px;
+}

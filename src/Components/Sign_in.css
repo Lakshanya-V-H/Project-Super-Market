@@ -1,0 +1,96 @@
+*{
+    color : #222
+}
+fieldset
+{
+    margin-left: 350px;
+    margin-right:350px;
+    border-radius: 50px;
+    border-color: black;
+    backdrop-filter: blur(3px);
+    border-width: 10px;
+}
+h2{
+    margin-top: 10px;
+    
+}
+#request
+{
+    color:#222
+}
+td
+{
+    font-weight: 500;
+    
+}
+input{
+    height:30px;
+    width : 170px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border-color:transparent;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    
+}
+#Google_Sign_Up,button
+{
+    height:35px;
+    width:200px;
+    background-color: black;
+    border-color: transparent;
+    border-radius: 15px;
+}
+#Sign_Up_button
+{
+    height:35px;
+    width:100px;
+    background-color: #bac34e;
+    border-color: transparent;
+    border-radius: 15px;
+    color : white
+
+}
+#Login_link,#forgetpassword,#newuser
+{
+    background-color: transparent;
+    font-style: italic;
+    border-color: transparent;
+    font-size: 15px;
+    font-weight: 300;
+}
+button :hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+#Save_button
+{
+    height:35px;
+    width:170px;
+    background-color: black;
+    border-color: transparent;
+    border-radius: 15px;
+}
+#checkbox
+{
+    height: 20px;
+    width: 20px;
+}
+hr
+{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#declaration
+{
+    color:blue;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 700;
+}
+body
+{
+    /*background-image:url(images/background_img4_blur.jpeg);*/
+    background-size: cover;
+    color:wheat;
+}

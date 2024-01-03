@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+*{
+    font-family: 'Poppins','sans-serif';
+    text-decoration : none;
+    text-transform:capitalize;
+    transition: 0.2s linear;
+}
+
+html{
+    font-size: 62.5%;
+}
+section {
+    padding: 3rem 9%;
+  }
+.header{
+    position : fixed;
+    top : 0;
+    left : 0;
+    right : 0;
+    z-index: +10;
+    background:white;
+    box-shadow : 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    padding : 2rem 5%
+    
+}
+.header #logo i {
+  color: #bac34e;
+  padding-right: .5rem;
+}
+.header #logo {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: black;
+  }
+
+.header .navbar li
+{
+    color : #666;
+    margin : 0 1rem;
+    font-size : 1.7rem;
+    display : inline;
+}
+
+.header .navbar li :hover{
+    color : #bac34e
+}
+
+.header .search-form {
+    position: static;
+    top: -115%;
+    right: 2rem;
+    width: 25rem;
+    border-radius: .5rem;
+    border-color: transparent;
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    background: white;
+  }
+  .header .search-form input {
+    height: 100%;
+    width: 100%;
+    padding: 0 1.2rem;
+    font-size: 1.6rem;
+  }
+  .header .icons {
+    font-size: 2.5rem;
+    margin-left: 1.7rem;
+    cursor: pointer;
+    color: #666;
+    display:flex;
+  }
+  .header .icons a{
+    color:#666;
+    padding-right: 15px;
+  }
+  .header .icons :hover {
+    color: #bac34e;
+  }
+.btn {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    background: #bac34e;
+    color: white;
+    font-size: 1.7rem;
+    cursor: pointer;
+    border:none;
+  }
+  /*.btn :hover {
+    background: black;
+  }*/
+  .home {
+    padding-top: 10rem;
+  }
+  .home .slides-container .slide {
+    display: flex;
+    align-items: center;
+    display: none;
+  }
+  .home .slides-container .slide.active {
+    display: flex;
+  }
+  .home .slides-container .slide .content {
+    flex: 1 1 40rem;
+    animation: fadeLeft .4s linear;
+  }
+  .home .slides-container .slide .content span {
+    color: #666;
+    font-size: 2.5rem;
+  }
+  .home .slides-container .slide .content h3 {
+    font-size: 6rem;
+    color: #222;
+    padding: .5rem 0;
+  }
+  .home .slides-container .slide .image {
+    flex: 1 1 40rem;
+    margin: 3rem 0;
+  }
+  .home .slides-container .slide .image img {
+    width: 100%;
+    animation: fadeUp .4s linear;
+  }
+  .banner-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    gap: 1.5rem;
+  }
+  .banner-container .banner {
+    position: relative;
+    height: 25rem;
+    overflow: hidden;
+  }
+  .banner-container .banner:hover img {
+    transform: scale(1.1);
+  }
+  .banner-container .banner img {
+    height: 100%;
+    width: 100%;
+   object-fit: cover;
+  }
+  .banner-container .banner .content {
+    position: absolute;
+    top: 50%;
+    left: 2rem;
+    margin-top:-60px;
+  }
+  .banner-container .banner .content span {
+    color: #666;
+    font-size: 1.5rem;
+  }
+  .banner-container .banner .content h3 {
+    font-size: 2rem;
+    padding-top: .5rem;
+    color: black;
+  }
+  .banner-container .banner .content .btn {
+    padding: .8rem 2.5rem;
+  }
+  .credit {
+    text-align: center;
+    background: #bac34e;
+    color: white;
+    font-size: 2rem;
+  }
+
+   input{
+    height:30px;
+    width : 170px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border-color:transparent;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);    
+}
+td,#already_a_user
+{
+    font-weight: 400;
+    padding: 0 1.2rem;
+    font-size: 1.6rem;
+}
+#sign_in_welcome
+{
+  font-size: 2.5rem;
+  color:white;
+}
+#request
+{
+  color:White;
+  padding: 0 1.2rem;
+  font-size: 1.7rem;
+}
+.Sign_in a{
+  color:white;
+}
+hr
+{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: black;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+fieldset{
+    border-radius: 50px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.Sign_in
+{
+  background-image: url('images/background_img9_blur.jpg');
+  background-size: cover;
+}
+.Sign_in .errormsg{
+  color:red;
+}
+.Sign_in input{
+  width:200px;
+}
+.Content{
+  background-color:whitesmoke;
+  margin-left: 350px;
+  margin-right:350px;
+  border-radius: 50px;
+}
